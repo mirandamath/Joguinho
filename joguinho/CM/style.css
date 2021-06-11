@@ -1,0 +1,75 @@
+body{
+  background-image: url("images/deserto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+h1{
+  font-size: 40px;
+  font-family: Roboto;
+  text-align: center;
+  color: rgb(15, 15, 179);
+}
+
+div {
+    text-align: center;
+}
+
+#Pontos{
+  font-family: Verdana;
+  font-size: 15px;
+  font-weight: bold;
+  color: rgb(15, 15, 179);
+}
+
+table {
+    margin: 1em auto;
+    border-collapse: collapse;
+}
+
+td {
+    border: 1px solid black;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+}
+
+.blocked, .flag {
+    background: rgb(192, 122, 54);    
+}
+
+.n1, .n2, .n3, .n4, .n5, .n6, .n7, .n8 {
+    background-color: white;
+}
+
+.n1 {
+    color: blue;
+}
+
+.n2 {
+    color: green;
+}
+
+.n3 {
+    color: red;
+}
+
+.n4 {
+    color: orange;
+}
+
+.n5 {
+    color: cyan;
+}
+
+.n6 {
+    color: hotpink;
+}
+
+.n7 {
+    color: darkgoldenrod;
+}
+
+.n8 {
+    color: royalblue;
+}

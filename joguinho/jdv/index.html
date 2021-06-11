@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JDV</title>
+        <meta charset="utf-8">
+        <link href="style.css" rel="stylesheet">
+        <script src="script.js"></script>
+    </head>
+    <body >
+    <h1>Jogo Da Velha</h1>
+      <div class="board">
+        <button onclick="defineNames();" id="start">Começar</button>
+        <input type="text" class="input" id="j1" placeholder="Red">
+        <input type="text" class="input" id="j2" placeholder="Blue">
+        <button onclick="location.reload();" id="reload">Recarregar</button>
+        <div class="fdiv">
+            <div class="ndiv" id="d1" onmouseover="insert('d1');"></div>
+            <div class="ndiv" id="d2" onmouseover="insert('d2');"></div>
+            <div class="ndiv" id="d3" onmouseover="insert('d3');"></div>
+            <div class="ndiv" id="d4" onmouseover="insert('d4');"></div>
+            <div class="ndiv" id="d5" onmouseover="insert('d5');"></div>
+            <div class="ndiv" id="d6" onmouseover="insert('d6');"></div>
+            <div class="ndiv" id="d7" onmouseover="insert('d7');"></div>
+            <div class="ndiv" id="d8" onmouseover="insert('d8');"></div>
+            <div class="ndiv" id="d9" onmouseover="insert('d9');"></div>
+        </div>
+      </div>
+    
+    </body>
+</html>

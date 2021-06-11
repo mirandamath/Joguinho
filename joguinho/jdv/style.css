@@ -1,0 +1,73 @@
+body {
+    text-align: center;
+    background-color: #1E1E1E;
+}
+
+/*
+.board {
+  position: relative;
+  display: flex;
+}
+*/
+
+h1{
+  font-size: 40px;
+  font-family: Impact;
+  text-align: center;
+  color: rgb(225, 44, 225);
+  text-shadow: 0px 0px 7px rgb(225, 44, 225);
+}
+
+.fdiv {
+    position: absolute;
+    left: 33%;
+    width: 601px;
+    height: 601px;
+    box-shadow: 4px 4px 5px rgb(225, 44, 225);
+}
+
+.ndiv {
+    float: left;
+    position: relative;
+    height: 194px;
+    width: 194px;
+    border-style: solid;
+    background-color: #949494;
+}
+
+#reload {
+  background-color: #B3B3B3;
+  width: 100px;
+  height: 35px;
+  border: 2px solid;
+  border-color: rgb(225, 44, 225);
+  box-shadow: 0px 0px 5px rgb(225, 44, 225);
+}
+
+#start {
+  background-color: #B3B3B3;
+  width: 100px;
+  height: 35px;
+  border: 2px solid;
+  border-color: rgb(225, 44, 225);
+  box-shadow: 0px 0px 5px rgb(225, 44, 225);
+}
+
+.input {
+  margin: 10px;
+  padding-left: 10px;
+  color: rgb(255, 255, 255);
+  background-color: #1E1E1E;
+  width: 100px;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+#j1 {
+  border-color: rgb(255, 0, 0);
+  box-shadow: 0px 0px 5px rgb(255, 12, 12);
+}
+#j2 {
+  border-color: rgb(80, 66, 204);
+  box-shadow: 0px 0px 5px rgb(80, 66, 204);
+}
