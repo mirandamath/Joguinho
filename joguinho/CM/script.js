@@ -27,9 +27,9 @@ function reiniciar(){
 
 function inicioDeJogo() {
   /*
- Grupo CANADA
- Função: inicioDeJogo
- Descrição: Esta função que inicia todo o jogo (peça-chave)
+ Grupo CANADA.
+ Função: inicioDeJogo.
+ Descrição: Esta função que inicia todo o jogo (peça-chave).
  */
     tabela = document.getElementById("tabela");
     tabela.onclick = analisar; //evento (acontecimento) da tabela
@@ -47,9 +47,9 @@ function inicioDeJogo() {
 
 function bandeira(event) {
   /*
- Grupo CANADA
- Função: bandeira
- Descrição: Esta função que cria e retira a bandeira
+ Grupo CANADA.
+ Função: bandeira.
+ Descrição: Esta função que cria e retira a bandeira.
  */
     var botaoDireito = event.target; //Muda a configuração do Botão direito
     var linha = botaoDireito.parentNode.rowIndex; // var l
