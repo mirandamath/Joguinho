@@ -9,18 +9,18 @@ onload = registrandoEventos;// Responsável em carregar a página
 
 function registrandoEventos() {
   /*
- Grupo CANADA
- Função: registrandoEventos
- Descrição: Esta função que puxa o inicioDeJogo
+ Grupo CANADA.
+ Função: registrandoEventos.
+ Descrição: Esta função que puxa o inicioDeJogo.
  */
     inicioDeJogo();
 }
 
 function reiniciar(){
   /*
- Grupo CANADA
- Função: reiniciar
- Descrição: Botão que reinicia o jogo
+ Grupo CANADA.
+ Função: reiniciar.
+ Descrição: Botão que reinicia o jogo.
  */
   location.reload();
 }
